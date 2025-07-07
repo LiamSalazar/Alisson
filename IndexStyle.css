@@ -57,27 +57,3 @@ canvas {
     color: white;
     mix-blend-mode: color-dodge;
 }
-
-@import url('https://fonts.cdnfonts.com/css/harry-potter');
-
-#harry-potter-title, #half-blood-title {
-    font-family: 'Harry P', sans-serif;
-    position: absolute;
-    z-index: 10;
-    color: white;
-    width: 100%;
-    text-align: center;
-    mix-blend-mode: color-dodge;
-}
-
-#harry-potter-title {
-    top: 25%;
-    font-size: 3rem;
-    animation: title 30s ease-in forwards;
-}
-
-#half-blood-title {
-    top: 40%;
-    font-size: 2rem;
-    animation: title 42s ease-in forwards;
-}
